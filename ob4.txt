@@ -1,1 +1,2 @@
 fcrackzip --brute-force -u --charset 1 --init 7890000000 _my.pcap.extracted/3CE.zip
+PASSWORD FOUND!!!!: pw == 7894625765
