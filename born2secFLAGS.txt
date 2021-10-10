@@ -1,6 +1,7 @@
 01: 6995787b83acce070df9aaf07e98c40f (turbo intruder)
 02: ed0439c8cacd3df10fa1a009b189efe2 (edit reset password request to have ntnu email)
 03: 2d09dbd7e6eb6b96f3b632dea0a196d2 (curl -e "https://www.nsa.gov/" -A "6995787b83ac" http://129.241.200.165:39972/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c | grep flag)
+07: (wget -e robots=off  --recursive --no-parent --reject="index.html*" http://129.241.200.165:39972/.hidden/)
 09: 5be9ddc8c77921181cb9ab6e527c0fdc (i cookie 0000000000000000001dc9a8c7e805ebf7f73e63c940abdb03bffc6140f8a695)
 
 
