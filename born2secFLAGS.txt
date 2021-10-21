@@ -3,6 +3,7 @@
 03: 2d09dbd7e6eb6b96f3b632dea0a196d2 (curl -e "https://www.nsa.gov/" -A "6995787b83ac" http://129.241.200.165:39972/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c | grep flag)
 07: (wget -e robots=off  --recursive --no-parent --reject="index.html*" http://129.241.200.165:39972/.hidden/, så bruk bash scrip for  cate dem i rekkefølge inn i rett fil)
 09: 5be9ddc8c77921181cb9ab6e527c0fdc (i cookie 0000000000000000001dc9a8c7e805ebf7f73e63c940abdb03bffc6140f8a695)
+10alt: 9fe5b1212dad866d15abd9d29fc93da293f9a4ea9c67a0311f2e248b835f8
 
 
 
