@@ -1,0 +1,6 @@
+binwalk -e my.pcap
+
+fcrackzip --brute-force -u --charset 1 --init 7890000000 _my.pcap.extracted/3CE.zip
+PASSWORD FOUND!!!!: pw == 7894625765
+
+Hallo. Your f1a9 is: 7ea21fd7ed62a543a55f215e63b62587

